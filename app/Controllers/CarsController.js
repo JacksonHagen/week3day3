@@ -15,7 +15,8 @@ function _drawCars() {
   `
 
   document.getElementById('listing-modal-form-slot').innerHTML = getCarform()
-  document.getElementById('add-listing-modal-label').innerText = 'Add Car 🚗'
+  document.getElementById('logo').innerText = 'Add a Car 🚗'
+  document.getElementById('logo-header').innerText = '🚗 - GregsList'
 }
 
 export class CarsController {
